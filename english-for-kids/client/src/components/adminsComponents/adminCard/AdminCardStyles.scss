@@ -1,0 +1,60 @@
+.admin-card{
+  border-radius: 0.2rem;
+  border: solid 0.1rem gray;
+  width: 18.5rem;
+  height: 20rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 1rem;
+
+  h4{
+    align-self: flex-start;
+    height: 1rem;
+    margin-left: 1rem;
+    button{
+      margin-left: 1rem;
+      border: green 0.1rem solid;
+      border-radius: 2rem;
+      background-color: transparent;
+      cursor: pointer;
+      width: 4rem;
+    }
+  }
+
+  img{
+    width: 14rem;
+    margin-top: 0.5rem;
+    align-self: center;
+  }
+
+  .card-btn{
+    margin-top: 0.6rem;
+    align-self: center;
+    width: 12rem;
+    height: 2.2rem;
+    font-size: 1.3rem;
+    border: green 0.1rem solid;
+    border-radius: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover{
+      background-color: green;
+      color: white;
+    }
+  }
+
+  .delete-card{
+    position: absolute;
+    right: 0;
+    font-size: 0;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    background-image: url(../../../assets/icons/closeBtnIcon.png);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}

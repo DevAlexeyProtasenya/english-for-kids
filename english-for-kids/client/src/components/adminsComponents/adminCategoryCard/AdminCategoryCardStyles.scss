@@ -1,0 +1,91 @@
+.category-card{
+  border-radius: 0.5rem;
+  border: solid 0.1rem gray;
+  width: 18.5rem;
+  height: 15.7rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 3.7rem;
+
+  input{
+    margin-top: 3rem;
+    padding-left: 1rem;
+    width: 15rem;
+    height: 2.5rem;
+    font-size: 1.4rem;
+    border: solid gray 0.1rem;
+    border-radius: 0.3rem;
+    align-self: center;
+  }
+
+  .create-category-btn{
+    width: 8rem;
+    height: 8rem;
+    font-size: 0;
+    background-image: url(../../../assets/icons/addIcon.png);
+    background-size: cover;
+    background-color: transparent;
+    cursor: pointer;
+    align-self: center;
+    margin-top: -1.5rem;
+  }
+
+  .wrong-span{
+    color: red;
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+  }
+
+  h2{
+    align-self: center;
+    margin-top: 1rem;
+  }
+
+  .words-amount{
+    margin-left: 2rem;
+    font-size: 1.4rem;
+  }
+
+  .change-buttons{
+    display: flex;
+    justify-content: space-around;
+    .category-btn{
+      width: 7rem;
+      height: 2.2rem;
+      font-size: 1.3rem;
+      border: green 0.1rem solid;
+      border-radius: 1rem;
+      background-color: transparent;
+      cursor: pointer;
+      &:hover{
+        background-color: green;
+        color: white;
+      }
+      &.update{
+        height: 3.3rem;
+      }
+      &.cancel{
+        border: red 0.1rem solid;
+        height: 3.3rem;
+        &:hover{
+          background-color: red;
+        }
+      }
+    }
+  }
+
+  .delete-category{
+    position: absolute;
+    right: 0;
+    font-size: 0;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    background-image: url(../../../assets/icons/closeBtnIcon.png);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}

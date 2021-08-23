@@ -1,0 +1,69 @@
+.login-form-wrapper{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+  z-index: 1000;
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 30%;
+    background-color: white;
+    gap: 1rem;
+  
+    @media (max-width: 700px) {
+      width: 19rem;
+    }
+
+    h2{
+      margin-top: 2rem;
+      text-align: center;
+    }
+    input{
+      border: black 1px solid;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 20rem;
+      flex-wrap: wrap;
+      justify-self: center;
+      height: 2rem;
+      padding-left: 1rem;
+      @media (max-width: 700px) {
+        max-width: 17rem;
+      }
+    }
+    .buttons{
+      display: flex;
+      gap: 2rem;
+      width: 20rem;
+      margin: 0 auto;
+      button{
+        background-color: transparent;
+        border-radius: 2rem;
+        min-width: 25%;
+        height: 2rem;
+        cursor: pointer;
+      }
+      button[type=submit]{
+        border: green solid 0.1rem;
+        &:hover{
+          background-color: green;
+          color: white;
+        }
+      }
+      button[type=button]{
+        border: red solid 0.1rem;
+        &:hover{
+          background-color: red;
+          color: white;
+        }
+      }
+    }
+  }
+}

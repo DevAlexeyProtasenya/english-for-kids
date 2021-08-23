@@ -1,0 +1,96 @@
+.burger-nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  z-index: 30;
+  background: linear-gradient(180deg, #0099AE 0%, #00BF82 100%);
+  width: 25rem;
+  height: 100vh;
+
+  &.play{
+    background: linear-gradient(40deg,#ffd86f,#fc6262);
+  }
+
+  @media (max-width: 750px) {
+    width: 20rem;
+  }
+
+}
+
+.login-button {
+  width: 100%;
+  max-width: 20rem;
+  height: 3rem;
+  color: white;
+  background-color: transparent;
+  border: solid 0.3rem white;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  align-self: center;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &:hover{
+    transform: scale(1.02);
+  }
+}
+
+.opened-nav {
+  animation: nav-appearance 0.5s forwards;
+}
+
+.closed-nav {
+  animation: nav-disapear 1s forwards;
+}
+
+.burger-nav__items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 130%;
+  padding: 7rem 3rem 3rem 8rem;
+
+  .nav-button{
+    cursor: pointer;
+
+  }
+
+  @media (max-width: 750px) {
+    padding: 7rem 3rem 3rem 5rem ;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}
+
+.hidden-block {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  background-color: rgba($color: #000000, $alpha: 0.5);
+}
+
+@keyframes nav-appearance {
+  from {left: -25rem;}
+  to {left: 0%;}
+}
+
+@keyframes nav-disapear {
+  from {left: 0%;}
+  to {left: -25rem;}
+}

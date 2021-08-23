@@ -1,0 +1,578 @@
+[
+  {
+    "id": 1,
+    "idCategory": 1,
+    "word": "Action (set A)",
+    "translate": "",
+    "imageSRC": "img/dance.jpg",
+    "sound": ""
+  },
+  {
+    "id": 2,
+    "idCategory": 1,
+    "word": "Action (set B)",
+    "translate": "",
+    "imageSRC": "img/swim.jpg",
+    "sound": ""
+  },
+  {
+    "id": 3,
+    "idCategory": 1,
+    "word": "Animal (set A)",
+    "translate": "",
+    "imageSRC": "img/cat.jpg",
+    "sound": ""
+  },
+  {
+    "id": 4,
+    "idCategory": 1,
+    "word": "Animal (set B)",
+    "translate": "",
+    "imageSRC": "img/bird.jpg",
+    "sound": ""
+  },
+  {
+    "id": 5,
+    "idCategory": 1,
+    "word": "Clothes",
+    "translate": "",
+    "imageSRC": "img/blouse.jpg",
+    "sound": ""
+  },
+  {
+    "id": 6,
+    "idCategory": 1,
+    "word": "Emotions",
+    "translate": "",
+    "imageSRC": "img/smile.jpg",
+    "sound": ""
+  },
+  {
+    "id": 7,
+    "idCategory": 1,
+    "word": "Body",
+    "translate": "",
+    "imageSRC": "img/back.jpg",
+    "sound": ""
+  },
+  {
+    "id": 8,
+    "idCategory": 1,
+    "word": "Vegetables",
+    "translate": "",
+    "imageSRC": "img/carrots.jpg",
+    "sound": ""
+  },
+  {
+    "id": 9,
+    "idCategory": 2,
+    "word": "cry",
+    "translate": "плакать",
+    "imageSRC": "img/cry.jpg",
+    "sound": "audio/cry.mp3"
+  },
+  {
+    "id": 10,
+    "idCategory": 2,
+    "word": "dance",
+    "translate": "танцевать",
+    "imageSRC": "img/dance.jpg",
+    "sound": "audio/dance.mp3"
+  },
+  {
+    "id": 11,
+    "idCategory": 2,
+    "word": "dive",
+    "translate": "нырять",
+    "imageSRC": "img/dive.jpg",
+    "sound": "audio/dive.mp3"
+  },
+  {
+    "id": 12,
+    "idCategory": 2,
+    "word": "draw",
+    "translate": "рисовать",
+    "imageSRC": "img/draw.jpg",
+    "sound": "audio/draw.mp3"
+  },
+  {
+    "id": 13,
+    "idCategory": 2,
+    "word": "fish",
+    "translate": "ловить рыбу",
+    "imageSRC": "img/fish.jpg",
+    "sound": "audio/fish.mp3"
+  },
+  {
+    "id": 14,
+    "idCategory": 2,
+    "word": "fly",
+    "translate": "летать",
+    "imageSRC": "img/fly.jpg",
+    "sound": "audio/fly.mp3"
+  },
+  {
+    "id": 15,
+    "idCategory": 2,
+    "word": "hug",
+    "translate": "обнимать",
+    "imageSRC": "img/hug.jpg",
+    "sound": "audio/hug.mp3"
+  },
+  {
+    "id": 16,
+    "idCategory": 2,
+    "word": "jump",
+    "translate": "прыгать",
+    "imageSRC": "img/jump.jpg",
+    "sound": "audio/jump.mp3"
+  },
+  {
+    "id": 17,
+    "idCategory": 3,
+    "word": "open",
+    "translate": "открывать",
+    "imageSRC": "img/open.jpg",
+    "sound": "audio/open.mp3"
+  },
+  {
+    "id": 18,
+    "idCategory": 3,
+    "word": "play",
+    "translate": "играть",
+    "imageSRC": "img/play.jpg",
+    "sound": "audio/play.mp3"
+  },
+  {
+    "id": 19,
+    "idCategory": 3,
+    "word": "point",
+    "translate": "указывать",
+    "imageSRC": "img/point.jpg",
+    "sound": "audio/point.mp3"
+  },
+  {
+    "id": 20,
+    "idCategory": 3,
+    "word": "ride",
+    "translate": "ездить",
+    "imageSRC": "img/ride.jpg",
+    "sound": "audio/ride.mp3"
+  },
+  {
+    "id": 21,
+    "idCategory": 3,
+    "word": "run",
+    "translate": "бегать",
+    "imageSRC": "img/run.jpg",
+    "sound": "audio/run.mp3"
+  },
+  {
+    "id": 22,
+    "idCategory": 3,
+    "word": "sing",
+    "translate": "петь",
+    "imageSRC": "img/sing.jpg",
+    "sound": "audio/sing.mp3"
+  },
+  {
+    "id": 23,
+    "idCategory": 3,
+    "word": "skip",
+    "translate": "пропускать, прыгать",
+    "imageSRC": "img/skip.jpg",
+    "sound": "audio/skip.mp3"
+  },
+  {
+    "id": 24,
+    "idCategory": 3,
+    "word": "swim",
+    "translate": "плавать",
+    "imageSRC": "img/swim.jpg",
+    "sound": "audio/swim.mp3"
+  },
+  {
+    "id": 25,
+    "idCategory": 4,
+    "word": "cat",
+    "translate": "кот",
+    "imageSRC": "img/cat.jpg",
+    "sound": "audio/cat.mp3"
+  },
+  {
+    "id": 26,
+    "idCategory": 4,
+    "word": "chick",
+    "translate": "цыплёнок",
+    "imageSRC": "img/chick.jpg",
+    "sound": "audio/chick.mp3"
+  },
+  {
+    "id": 27,
+    "idCategory": 4,
+    "word": "chicken",
+    "translate": "курица",
+    "imageSRC": "img/chicken.jpg",
+    "sound": "audio/chicken.mp3"
+  },
+  {
+    "id": 28,
+    "idCategory": 4,
+    "word": "dog",
+    "translate": "собака",
+    "imageSRC": "img/dog.jpg",
+    "sound": "audio/dog.mp3"
+  },
+  {
+    "id": 29,
+    "idCategory": 4,
+    "word": "horse",
+    "translate": "лошадь",
+    "imageSRC": "img/horse.jpg",
+    "sound": "audio/horse.mp3"
+  },
+  {
+    "id": 30,
+    "idCategory": 4,
+    "word": "pig",
+    "translate": "свинья",
+    "imageSRC": "img/pig.jpg",
+    "sound": "audio/pig.mp3"
+  },
+  {
+    "id": 31,
+    "idCategory": 4,
+    "word": "rabbit",
+    "translate": "кролик",
+    "imageSRC": "img/rabbit.jpg",
+    "sound": "audio/rabbit.mp3"
+  },
+  {
+    "id": 32,
+    "idCategory": 4,
+    "word": "sheep",
+    "translate": "овца",
+    "imageSRC": "img/sheep.jpg",
+    "sound": "audio/sheep.mp3"
+  },
+  {
+    "id": 33,
+    "idCategory": 5,
+    "word": "bird",
+    "translate": "птица",
+    "imageSRC": "img/bird.jpg",
+    "sound": "audio/bird.mp3"
+  },
+  {
+    "id": 34,
+    "idCategory": 5,
+    "word": "fish",
+    "translate": "рыба",
+    "imageSRC": "img/fish1.jpg",
+    "sound": "audio/fish.mp3"
+  },
+  {
+    "id": 35,
+    "idCategory": 5,
+    "word": "frog",
+    "translate": "лягушка",
+    "imageSRC": "img/frog.jpg",
+    "sound": "audio/frog.mp3"
+  },
+  {
+    "id": 36,
+    "idCategory": 5,
+    "word": "giraffe",
+    "translate": "жираф",
+    "imageSRC": "img/giraffe.jpg",
+    "sound": "audio/giraffe.mp3"
+  },
+  {
+    "id": 37,
+    "idCategory": 5,
+    "word": "lion",
+    "translate": "лев",
+    "imageSRC": "img/lion.jpg",
+    "sound": "audio/lion.mp3"
+  },
+  {
+    "id": 38,
+    "idCategory": 5,
+    "word": "mouse",
+    "translate": "мышь",
+    "imageSRC": "img/mouse.jpg",
+    "sound": "audio/mouse.mp3"
+  },
+  {
+    "id": 39,
+    "idCategory": 5,
+    "word": "turtle",
+    "translate": "черепаха",
+    "imageSRC": "img/turtle.jpg",
+    "sound": "audio/turtle.mp3"
+  },
+  {
+    "id": 40,
+    "idCategory": 5,
+    "word": "dolphin",
+    "translate": "дельфин",
+    "imageSRC": "img/dolphin.jpg",
+    "sound": "audio/dolphin.mp3"
+  },
+  {
+    "id": 41,
+    "idCategory": 6,
+    "word": "skirt",
+    "translate": "юбка",
+    "imageSRC": "img/skirt.jpg",
+    "sound": "audio/skirt.mp3"
+  },
+  {
+    "id": 42,
+    "idCategory": 6,
+    "word": "pants",
+    "translate": "брюки",
+    "imageSRC": "img/pants.jpg",
+    "sound": "audio/pants.mp3"
+  },
+  {
+    "id": 43,
+    "idCategory": 6,
+    "word": "blouse",
+    "translate": "блузка",
+    "imageSRC": "img/blouse.jpg",
+    "sound": "audio/blouse.mp3"
+  },
+  {
+    "id": 44,
+    "idCategory": 6,
+    "word": "dress",
+    "translate": "платье",
+    "imageSRC": "img/dress.jpg",
+    "sound": "audio/dress.mp3"
+  },
+  {
+    "id": 45,
+    "idCategory": 6,
+    "word": "boot",
+    "translate": "ботинок",
+    "imageSRC": "img/boot.jpg",
+    "sound": "audio/boot.mp3"
+  },
+  {
+    "id": 46,
+    "idCategory": 6,
+    "word": "shirt",
+    "translate": "рубашка",
+    "imageSRC": "img/shirt.jpg",
+    "sound": "audio/shirt.mp3"
+  },
+  {
+    "id": 47,
+    "idCategory": 6,
+    "word": "coat",
+    "translate": "пальто",
+    "imageSRC": "img/coat.jpg",
+    "sound": "audio/coat.mp3"
+  },
+  {
+    "id": 48,
+    "idCategory": 6,
+    "word": "shoe",
+    "translate": "туфли",
+    "imageSRC": "img/shoe.jpg",
+    "sound": "audio/shoe.mp3"
+  },
+  {
+    "id": 49,
+    "idCategory": 7,
+    "word": "sad",
+    "translate": "грустный",
+    "imageSRC": "img/sad.jpg",
+    "sound": "audio/sad.mp3"
+  },
+  {
+    "id": 50,
+    "idCategory": 7,
+    "word": "angry",
+    "translate": "сердитый",
+    "imageSRC": "img/angry.jpg",
+    "sound": "audio/angry.mp3"
+  },
+  {
+    "id": 51,
+    "idCategory": 7,
+    "word": "happy",
+    "translate": "счастливый",
+    "imageSRC": "img/happy.jpg",
+    "sound": "audio/happy.mp3"
+  },
+  {
+    "id": 52,
+    "idCategory": 7,
+    "word": "tired",
+    "translate": "уставший",
+    "imageSRC": "img/tired.jpg",
+    "sound": "audio/tired.mp3"
+  },
+  {
+    "id": 53,
+    "idCategory": 7,
+    "word": "surprised",
+    "translate": "удивлённый",
+    "imageSRC": "img/surprised.jpg",
+    "sound": "audio/surprised.mp3"
+  },
+  {
+    "id": 54,
+    "idCategory": 7,
+    "word": "scared",
+    "translate": "испуганный",
+    "imageSRC": "img/scared.jpg",
+    "sound": "audio/scared.mp3"
+  },
+  {
+    "id": 55,
+    "idCategory": 7,
+    "word": "smile",
+    "translate": "улыбка",
+    "imageSRC": "img/smile.jpg",
+    "sound": "audio/smile.mp3"
+  },
+  {
+    "id": 56,
+    "idCategory": 7,
+    "word": "laugh",
+    "translate": "смех",
+    "imageSRC": "img/laugh.jpg",
+    "sound": "audio/laugh.mp3"
+  },
+  {
+    "id": 57,
+    "idCategory": 8,
+    "word": "hand",
+    "translate": "рука",
+    "imageSRC": "img/hand.jpg",
+    "sound": "audio/hand.mp3"
+  },
+  {
+    "id": 58,
+    "idCategory": 8,
+    "word": "wrist",
+    "translate": "запястье",
+    "imageSRC": "img/wrist.jpg",
+    "sound": "audio/wrist.mp3"
+  },
+  {
+    "id": 59,
+    "idCategory": 8,
+    "word": "legs",
+    "translate": "ноги",
+    "imageSRC": "img/legs.jpg",
+    "sound": "audio/legs.mp3"
+  },
+  {
+    "id": 60,
+    "idCategory": 8,
+    "word": "nose",
+    "translate": "нос",
+    "imageSRC": "img/nose.jpg",
+    "sound": "audio/nose.mp3"
+  },
+  {
+    "id": 61,
+    "idCategory": 8,
+    "word": "mouth",
+    "translate": "рот",
+    "imageSRC": "img/mouth.jpg",
+    "sound": "audio/mouth.mp3"
+  },
+  {
+    "id": 62,
+    "idCategory": 8,
+    "word": "ear",
+    "translate": "ухо",
+    "imageSRC": "img/ear.jpg",
+    "sound": "audio/ear.mp3"
+  },
+  {
+    "id": 63,
+    "idCategory": 8,
+    "word": "eye",
+    "translate": "глаз",
+    "imageSRC": "img/eye.jpg",
+    "sound": "audio/eye.mp3"
+  },
+  {
+    "id": 64,
+    "idCategory": 8,
+    "word": "back",
+    "translate": "спина",
+    "imageSRC": "img/back.jpg",
+    "sound": "audio/back.mp3"
+  },
+  {
+    "id": 65,
+    "idCategory": 9,
+    "word": "carrots",
+    "translate": "морковь",
+    "imageSRC": "img/carrots.jpg",
+    "sound": "audio/carrots.mp3"
+  },
+  {
+    "id": 66,
+    "idCategory": 9,
+    "word": "potatoes",
+    "translate": "картофель",
+    "imageSRC": "img/potatoes.jpg",
+    "sound": "audio/potatoes.mp3"
+  },
+  {
+    "id": 67,
+    "idCategory": 9,
+    "word": "beetroot",
+    "translate": "свекла",
+    "imageSRC": "img/beetroot.jpg",
+    "sound": "audio/beetroot.mp3"
+  },
+  {
+    "id": 68,
+    "idCategory": 9,
+    "word": "cabbage",
+    "translate": "капуста",
+    "imageSRC": "img/cabbage.jpg",
+    "sound": "audio/cabbage.mp3"
+  },
+  {
+    "id": 69,
+    "idCategory": 9,
+    "word": "cucumber",
+    "translate": "огурец",
+    "imageSRC": "img/cucumber.jpg",
+    "sound": "audio/cucumber.mp3"
+  },
+  {
+    "id": 70,
+    "idCategory": 9,
+    "word": "tomato",
+    "translate": "томат",
+    "imageSRC": "img/tomato.jpg",
+    "sound": "audio/tomato.mp3"
+  },
+  {
+    "id": 71,
+    "idCategory": 9,
+    "word": "onion",
+    "translate": "лук",
+    "imageSRC": "img/onion.jpg",
+    "sound": "audio/onion.mp3"
+  },
+  {
+    "id": 72,
+    "idCategory": 9,
+    "word": "pumpkin",
+    "translate": "тыква",
+    "imageSRC": "img/pumpkin.jpg",
+    "sound": "audio/pumpkin.mp3"
+  }
+]

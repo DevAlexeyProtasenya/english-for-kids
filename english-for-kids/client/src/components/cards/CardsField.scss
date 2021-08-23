@@ -1,0 +1,122 @@
+.cards-field{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 85rem;
+  width: 100%;
+  margin: 0 auto;
+
+  @media (max-width: 1370px) {
+    max-width: 60rem;
+  }
+
+  @media (max-width: 1000px) {
+    max-width: 39rem;
+  }
+
+  @media (max-width: 700px) {
+    max-width: 19rem;
+  }
+
+}
+
+.button-start-wrapper{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .start-game,
+  .repeat-audio {
+    margin: 3rem 0;
+    width: 39rem;
+    height: 3rem;
+    background: linear-gradient(40deg,#ffd86f,#fc6262);
+    border-radius: 0.7rem;
+    transition: all 0.5s;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    &:hover{
+      transform: scale(1.02);
+      box-shadow: 0 0 5px rgba(0,0,0,0.5);;
+    }
+
+    @media (max-width: 700px) {
+      width: 19rem;
+    }
+  }
+
+  .repeat-audio{
+    display: block;
+    font-size: 0;
+    width: 3rem;
+    height: 3rem;
+    background: url(../../assets/icons/turn.png), linear-gradient(40deg,#ffd86f,#fc6262);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+  }
+
+}
+a{
+  position: relative;
+
+  .completed-card{
+    position: absolute;
+    z-index: 10;
+    top: -0.5rem;
+    left: -0.5rem;
+    width: 105%;
+    height: 105%;
+    background-color: rgba($color: #fff, $alpha: 0.8);
+    pointer-events: none;
+    cursor: auto;
+  }
+}
+
+.game-end{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+  img{
+    max-width: 70rem;
+    max-height: 100%;
+    width: 100%;
+    height: fit-content;
+    z-index: 100;
+  }
+}
+
+.stars{
+  display: flex;
+  height: 3rem;
+  justify-content: flex-end;
+  margin: 0 auto;
+  max-width: 80rem;
+
+  img{
+    width: 3rem;
+    height: 3rem;
+  }
+
+  @media (max-width: 1370px) {
+    max-width: 60rem;
+  }
+
+  @media (max-width: 1000px) {
+    max-width: 39rem;
+  }
+
+  @media (max-width: 700px) {
+    max-width: 19rem;
+  }
+}

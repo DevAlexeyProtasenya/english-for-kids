@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Main Page"
+  },
+  {
+    "id": 2,
+    "name": "Action (set A)"
+  },
+  {
+    "id": 3,
+    "name": "Action (set B)"
+  },
+  {
+    "id": 4,
+    "name": "Animal (set A)"
+  },
+  {
+    "id": 5,
+    "name": "Animal (set B)"
+  },
+  {
+    "id": 6,
+    "name": "Clothes"
+  },
+  {
+    "id": 7,
+    "name": "Emotions"
+  },
+  {
+    "id": 8,
+    "name": "Body"
+  },
+  {
+    "id": 9,
+    "name": "Vegetables"
+  },
+  {
+    "id": 0,
+    "name": "Statistics"
+  }
+]
